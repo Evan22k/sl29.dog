@@ -55,8 +55,11 @@ class Dog:
         """
         return f"Chien: {self.name}, Race: {self._race}, Sexe: {self._sex}"
         
-    def bark(self, n):
-        return "SIUUUUUUUUUUUUU "*n
+    def bark(self, n=1):
+        return "Woff"*n
     
     def chew(self, mache):
         return mache[: -1]
+
+    def mate(self, chien):
+        
